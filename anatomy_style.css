@@ -1,0 +1,40 @@
+
+header {
+    
+    /* The Header is "Kayla Terzioglu's Visual Art Portfolio" */
+    
+    text-align: center; 
+    /* This "set[s] the horizontal alignment of a text. 
+    A text can be left or right aligned, centered, or justified. */
+
+    padding: 20px;
+    /* "The CSS padding properties are used to generate space around an 
+        element's content, inside of any defined borders" */
+ }
+ 
+ nav {
+
+    /* nav section: affects the Home, Portfolio, and About Me link format */
+
+    text-align: center;
+    
+    word-spacing: 1.5px; 
+    /* Word spacing "sets the length of space between words and between tags" */
+    
+    Padding: 30px;
+ }
+
+ footer{
+
+    text-align: center;
+    
+    word-spacing: 1.5px; 
+    
+    Padding: 30px;
+ }
+ 
+ /* Creates a two-column layout */
+
+ 
+
+ 

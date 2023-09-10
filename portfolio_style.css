@@ -1,0 +1,72 @@
+
+header {
+    text-align: center; 
+    padding: 20px;
+ }
+ 
+ nav {
+    text-align: center;
+    word-spacing: 1.5px; 
+    Padding: 30px;
+ }
+
+ footer{
+    text-align: center;
+    word-spacing: 1.5px; 
+    Padding: 30px;
+ }
+ 
+ /* Creates a five-column layout */
+
+ *{
+    box-sizing: border-box;
+ }
+ .artwork {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .anatomy {
+    width: 20%;
+    height: 100vh;
+    background-color: white;
+    color: rgb(158, 10, 87);
+    flex: 20%; /* Flex splits the screen in half */
+    padding: 20px;
+ }
+
+ .landscapes {
+    width: 20%;
+    background-color: white;
+    color: rgb(158, 10, 87);
+    height: 100vh;
+    flex: 20%;
+    padding: 20px;
+ }
+ .abstract {
+    width: 20%;
+    background-color: white;
+    color: rgb(158, 10, 87);
+    height: 100vh;
+    flex: 20%;
+    padding: 20px;
+ }
+ .still_lifes {
+    width: 20%;
+    background-color: white;
+    color: rgb(158, 10, 87);
+    height: 100vh;
+    flex: 20%;
+    padding: 20px;
+ }
+ .high_school {
+    width: 20%;
+    background-color: white;
+    color: rgb(158, 10, 87);
+    height: 100vh;
+    flex: 20%;
+    padding: 20px;
+ }
+
+
+
+ 
