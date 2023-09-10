@@ -13,16 +13,19 @@ header {
  }
  
  nav {
+
+    /* nav section: affects the Home, Portfolio, and About Me link format */
+
     text-align: center;
     
-    word-spacing: 30px; 
+    word-spacing: 1.5px; 
     /* Word spacing "sets the length of space between words and between tags" */
     
-    Padding: 10px;
+    Padding: 30px;
  }
 
  /* Creates a two-column layout */
- 
+
  *{
     box-sizing: border-box;
  }
@@ -38,13 +41,16 @@ header {
     flex: 70%;
     padding: 20px;
  }
- /*profile image and heading style*/
+
+ /* Pineapple man image: */
  .profile img {
     width: 120px;
     display: block;
     margin-left: 0;
     margin-right: 0;
  }
+
+ /* About Me Section: */
  .profile h1 {
     text-align: center;
  }
