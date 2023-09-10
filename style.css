@@ -49,7 +49,7 @@ header {
     background-color: white;
     text-align: left;
     color: rgb(158, 10, 87);
-    flex: 50%;
+    flex: 50%; /* Flex splits the screen in half */
     padding: 20px;
  }
  
