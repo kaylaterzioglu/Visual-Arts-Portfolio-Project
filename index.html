@@ -3,18 +3,19 @@
 <html> <!-- start code -->
 
 <head>
+    <style>p.solid {border-style: solid;}</style>
     <title>Home Page</title> <!-- Browser Tab -->
     <link rel="stylesheet" href="style.css"> <!-- links style sheet to html page -->
+     
 </head> 
 
  <body> <!-- visible content on the page -->
 
     <header>   <!-- content for top of the page / navigation -->
-    
-        <h1>Kayla Terzioglu's Visual Art Portfolio</h1>
+        <h1 style="border:2px solid rgb(158, 10, 87);">Kayla Terzioglu's Visual Arts Portfolio</h1>
     <nav>
-       <a href="portfolio.html">Portfolio</a>
-       <a href="domain.tld/about">About Me</a> <!-- links to other pages on the site (not yet made) -->
+       <a style="text-decoration:none;" style="color:black;" href="portfolio.html">-Portfolio-</a>
+       <a style="text-decoration:none;" style="color:black;" href="about.html">-About Me-</a> 
     </nav>
 
     </header>
@@ -23,25 +24,26 @@
        
         <div class="row">
           
-            <div class="first-text-box">
-             <h1>My Website Goal:</h1> <!-- a heading -->
+            <div class="profile"> <!--organizational element -->
+                
+                <h1> About Me!</h1>
+                <img src="pineappleman.jpg" alt="A selfie with my largest painting" width="279" height="376.625">
+                <!-- Notes:
+                   src specifies the path to the image.
+                   alt attribute provides an alternate text for an image, 
+                   if the user for some reason cannot view it.
+                   The image must be in the same folder as the HTML / share the same path.
+               -->
+                <p>This is a selfie with my largest painting, Mr. Pineapple Man</p>
+              </div> 
+
+            <div class="site-goal">
+             <h1>Website Goal~</h1> <!-- a heading -->
              <section>
                 <h1>Hi there!</h1>
-                <p>I am improving my coding skills in HTML. This is a fun project for me to work on over time. It will allow me to display my visual artwork while using my computer science skills as I explore HTML and web design. It is still in its baby stages :&#41</p> <!-- a paragraph -->
+                <p>I am looking to improve and practice my coding skills in HTML. I decided to start a for-fun project to work on over time. This website allows me to display my visual artwork while using my computer science skills as I explore web design. It is still in its baby stages, but thanks for taking a look! You can find me on Instagram @sprinklesandsmilesart, or click on the link at the bottom of the page :&#41</p> <!-- a paragraph -->
              </section>
-            </div>
-          
-             <div class="profile"> <!--organizational element -->
-               <h1>About Me!</h1>
-               <img src="pineappleman.jpg" alt="A selfie with my largest painting" width="279" height="376.625">
-               <!-- Notes:
-                  src specifies the path to the image.
-                  alt attribute provides an alternate text for an image, 
-                  if the user for some reason cannot view it.
-                  The image must be in the same folder as the HTML / share the same path.
-              -->
-               <p>This is a selfie with my largest painting, Mr. Pineapple Man</p>
-             </div>  
+            </div> 
        
         </div>  
 
