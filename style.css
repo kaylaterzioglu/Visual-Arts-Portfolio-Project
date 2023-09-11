@@ -11,9 +11,9 @@ header {
     /* "The CSS padding properties are used to generate space around an 
         element's content, inside of any defined borders" */
 
-   font-style: normal;
-   font-family: "Garamond", serif;
-   font-size: 20px;
+    font-style: normal;
+    font-family: "Garamond", serif;
+    font-size: 20px;
  }
  
  nav {
@@ -59,6 +59,12 @@ header {
     flex: 50%;
     padding: 20px;
     text-align: center;
+    border-top: 4px solid rgb(158, 10, 87);
+    border-left: 4px solid rgb(158, 10, 87);
+    border-right: 4px solid rgb(158, 10, 87);
+    border-bottom: 4px solid rgb(158, 10, 87);
+    font-style: normal;
+    font-family: "Garamond", serif;
  }
 
  /* Pineapple man image: */
@@ -66,11 +72,21 @@ header {
     margin-left: 0;
     margin-right: 0;
     text-align: center;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 15px;
  }
 
  /* About Me Section: */
  .profile h1 {
     text-align: center;
+    padding: 10px;
+ }
+
+ .profile p {
+   font-size: 20px;
  }
 
  .site-goal {
@@ -80,6 +96,10 @@ header {
    text-align: right;
    color: rgb(158, 10, 87);
    flex: 50%; /* Flex splits the screen in half */
+   border-top: 4px solid rgb(231, 108, 14);
+   border-left: 4px solid rgb(231, 108, 14);
+   border-right: 4px solid rgb(231, 108, 14);
+   border-bottom: 4px solid rgb(231, 108, 14);
    padding: 20px;
    font-style: normal;
    font-family: "Garamond", serif;
