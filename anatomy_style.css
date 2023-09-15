@@ -34,7 +34,30 @@ header {
  }
  
  /* Creates a two-column layout */
+.one{
+    background-color: black;
+}
+ .one img{
+    padding: 20px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
 
- 
+ .one p{
+    color: white;
+    text-align: center;
+ }
+
+ .two{
+    background-color: black;
+}
+ .two img{
+    padding: 20px;
+    text-align: center;
+    margin-left: 80;
+    margin-right: 20;
+ }
 
  

@@ -1,70 +1,170 @@
 
 header {
     text-align: center; 
-    padding: 20px;
+    padding: 35px;
+    font-style: normal;
+    font-family: "Garamond", serif;
+    font-size: 20px;
+    background-color: white;    
  }
  
  nav {
     text-align: center;
-    word-spacing: 1.5px; 
-    Padding: 30px;
+    word-spacing: 1.5px;     
+    Padding: 20px;
+    font-style: normal;
+    font-family: "Garamond", serif;
+    font-size: 20px;
  }
 
  footer{
     text-align: center;
     word-spacing: 1.5px; 
     Padding: 30px;
+    font-style: normal;
+    font-family: "Garamond", serif;
+    font-size: 20px;
  }
  
  /* Creates a five-column layout */
 
  *{
     box-sizing: border-box;
+    background-color: white;    
  }
  .artwork {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;  
  }
  .anatomy {
+    background-color: black;
+    color: white;
     width: 20%;
     height: 100vh;
-    background-color: white;
-    color: rgb(158, 10, 87);
     flex: 20%; /* Flex splits the screen in half */
     padding: 20px;
+    text-align: center;
  }
 
- .landscapes {
-    width: 20%;
-    background-color: white;
-    color: rgb(158, 10, 87);
-    height: 100vh;
-    flex: 20%;
-    padding: 20px;
+.anatomy img {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
  }
- .abstract {
-    width: 20%;
-    background-color: white;
-    color: rgb(158, 10, 87);
-    height: 100vh;
-    flex: 20%;
-    padding: 20px;
+
+.anatomy h1{
+    background-color: black;
+    color: white;
  }
- .still_lifes {
-    width: 20%;
-    background-color: white;
-    color: rgb(158, 10, 87);
-    height: 100vh;
-    flex: 20%;
-    padding: 20px;
+
+.anatomy a{
+    background-color: black;
+    color: white;
  }
- .high_school {
+
+.landscapes {
+    background-color: black;
+    color: white;
     width: 20%;
-    background-color: white;
-    color: rgb(158, 10, 87);
     height: 100vh;
     flex: 20%;
     padding: 20px;
+    text-align: center;
+ }
+
+.landscapes h1{
+    background-color: black;
+    color: white;
+ }
+
+.landscapes a{
+    background-color: black;
+    color: white;
+ }
+
+.landscapes img {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+ }
+
+.abstract {
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 100vh;
+    flex: 20%;
+    padding: 20px;
+    text-align: center;
+ }
+
+.abstract h1{
+    background-color: black;
+    color: white;
+ }
+
+.abstract a{
+    background-color: black;
+    color: white;
+ }
+
+.abstract img {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+ }
+
+.still_lifes {
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 100vh;
+    flex: 20%;
+    padding: 20px;
+    text-align: center;
+ }
+
+.still_lifes img {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+ }
+
+.still_lifes h1{
+    background-color: black;
+    color: white;
+ }
+
+.still_lifes a{
+    background-color: black;
+    color: white;
+ }
+
+.high_school {
+    background-color: black;
+    color: white;
+    width: 20%;
+    height: 100vh;
+    flex: 20%;
+    padding: 20px;
+    text-align: center;
+ }
+
+.high_school h1{
+    background-color: black;
+    color: white;
+ }
+
+.high_school a{
+    background-color: black;
+    color: white;
+ }
+
+.high_school img {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
  }
 
 
